@@ -1,0 +1,6 @@
+
+# HTID:17790612: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17790612:
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1
